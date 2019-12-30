@@ -1,7 +1,6 @@
-# base_warface
-Free base for warface cheats
-1
-2
-3
+#Base of cheat for Warface [RU]
 
-4
+Simple base. I will update it every update.
+
+Thanks for 64-bit VMT -> 2yxxx
+Powered by SL Team
