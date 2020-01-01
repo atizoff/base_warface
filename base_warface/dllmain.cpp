@@ -21,7 +21,7 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD64 dwReason, LPVOID)
 	{
 	case DLL_PROCESS_ATTACH:
 		VmtHook->bInitialize((PDWORD64*)SSystemGlobalEnvironment::Singleton()->GetIRenderer()->GetDirectDevice());
-		pEndSceen = (EndSceenFn)VmtHook->dwHookMethod((DWORD64)myEndSceen, 17);
+		pEndSceen = (EndSceenFn)VmtHook->dwHookMethod((DWORD64)myEndSceen, 42);
 		break;
 
 	case DLL_PROCESS_DETACH:
