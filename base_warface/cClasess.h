@@ -11,7 +11,7 @@ public:
 
 	static SSystemGlobalEnvironment* Singleton()
 	{
-		return *(SSystemGlobalEnvironment**)0x141C19150;
+		return *(SSystemGlobalEnvironment**)0x141C1D150;
 	}
 };
 
