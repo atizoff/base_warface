@@ -11,7 +11,7 @@ public:
 
 	static SSystemGlobalEnvironment* Singleton()
 	{
-		return *(SSystemGlobalEnvironment**)0x141D313A0;
+		return *(SSystemGlobalEnvironment**)0x141E2F880;
 	}
 };
 
@@ -20,6 +20,6 @@ class IRenderer
 public:
 	DWORD64* GetDirectDevice()
 	{
-		return (DWORD64*) * (DWORD64*)((DWORD64)this + 0xA6D0);
+		return (DWORD64*) * (DWORD64*)((DWORD64)this + 0xA770);
 	}
 };
